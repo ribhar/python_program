@@ -88,7 +88,9 @@ list5.clear() # clear the list instead of deleting it
 print(list5)
 
 
- #  list copy 
+#  list copy 
 
- nlist = [1,2,3]
- list7 = list6
+list6 = [1,2,3]
+list7 = list6
+
+print(list7)
