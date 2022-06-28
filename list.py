@@ -77,3 +77,6 @@ list5 = [1,2,8,4,9,6,7,8,9,0]
 
 list5.remove(8)  # remove first match found from list
 print(list5)
+
+list5.pop(3)  # remove element  at a given index
+print(list5)
