@@ -51,6 +51,21 @@ list3[2:2] = [5,7]
 print(list3)
 
 
-
+# updating indexes
 list3[1:4] = [11,12,13]
 print(list3)
+
+
+# deleting element, range of element, entire list
+
+list4 = [1,2,3,4,5,6]
+
+
+del list4[1]
+print(list4)
+
+del list4[1:4]
+print(list4)
+
+del list4
+print(list4)
