@@ -6,6 +6,10 @@
 
 # remove() to remove an itm from a list 
 
+# pop() to remove an item at a given index
+
+
+
 
 
 
