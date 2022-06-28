@@ -21,3 +21,23 @@ my_tuple = ("cat",[2,4],(1,3,5)) # nested tuple
 my_tuple = 3, 4.6,"dog"
 
 print(my_tuple)
+
+
+# Creating Tuples With One Item
+
+# Creating a tuple with one is a bit tricky
+
+# Having one item within parantheses is not enough. We will need a tailing comma to indicate that it is in fact a tuple.
+
+
+# only parantheses is not enough
+t1 = ("hello")
+print(type(t1))
+
+# need a comma at the end
+t2 = ("hello",)
+print(type(t2))
+
+# parantheses is optional
+t3 = "hello",
+print(type(t3))
