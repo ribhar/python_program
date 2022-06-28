@@ -89,3 +89,6 @@ print(list5)
 
 
  #  list copy 
+
+ nlist = [1,2,3]
+ list7 = list6
