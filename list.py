@@ -86,3 +86,6 @@ print(list5)
 
 list5.clear() # clear the list instead of deleting it
 print(list5)
+
+
+ #  list copy 
