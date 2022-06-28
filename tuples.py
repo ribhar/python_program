@@ -6,3 +6,18 @@
 # tuples can be created placing all the items (elements) inside parentheses (), separated by commas.
 
 # A tuples can have any number of items and the may be  different types (integer,float,list,sting etc.).
+
+
+my_tuple = () # empty tuple
+
+my_tuple = (1,2,3) # tuple having intergers
+
+my_tuple =  (1, "Hello", 3.4) # mixed data tuple
+
+my_tuple = ("cat",[2,4],(1,3,5)) # nested tuple
+
+# A tuple can also be created without using parantheses. However, it's a good practice to use them.
+
+my_tuple = 3, 4.6,"dog"
+
+print(my_tuple)
