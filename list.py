@@ -101,3 +101,4 @@ list8 = [1,2,3]
 list9 = list8.copy()
 
 print(list9)
+print(list9[0])
