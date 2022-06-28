@@ -39,3 +39,18 @@ print(list1)
 list2 = ["a","b","c"]
 
 print(list2*3)
+
+# insert(index_on_to_be_insert, element_to_inserted) 
+
+list3 = [1,2,3]
+
+list3.insert(1,10)
+print(list3)
+
+list3[2:2] = [5,7]
+print(list3)
+
+
+
+list3[1:4] = [11,12,13]
+print(list3)
