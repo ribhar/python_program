@@ -84,4 +84,5 @@ print(list5)
 list5.pop()  # remove element at last index
 print(list5)
 
-# list5.clear()
+list5.clear() # clear the list instead of deleting it
+print(list5)
