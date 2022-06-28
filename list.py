@@ -117,3 +117,10 @@ list9 = list8.copy()
 print(list9)
 print(list9[0])
 
+# check element in a list or not
+
+list10 = [1,3,"the","is"]
+
+print("the" in list10)
+print("e" in list10)
+print("is" in list10)
