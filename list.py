@@ -94,3 +94,10 @@ list6 = [1,2,3]
 list7 = list6
 
 print(list7)
+
+# copy()
+
+list8 = [1,2,3]
+list9 = list8.copy()
+
+print(list9)
