@@ -8,7 +8,7 @@
 
 # pop() to remove an item at a given index
 
-
+# clear() to remove all items from a list
 
 
 
