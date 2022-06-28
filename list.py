@@ -80,3 +80,8 @@ print(list5)
 
 list5.pop(3)  # remove element  at a given index
 print(list5)
+
+list5.pop()  # remove element at last index
+print(list5)
+
+# list5.clear()
