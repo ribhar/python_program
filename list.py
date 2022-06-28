@@ -1,3 +1,8 @@
+# append() to add an item to a list
+# extend() to add all elements of a list to another list
+# insert() to insert an item at a given  index
+
+
 
 # append extend
 odd  = [1,3,5]
@@ -102,3 +107,4 @@ list9 = list8.copy()
 
 print(list9)
 print(list9[0])
+
