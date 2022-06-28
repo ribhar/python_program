@@ -10,7 +10,7 @@
 
 # clear() to remove all items from a list
 
-
+# copy() to return a shallow copy of the list
 
 
 # append extend
