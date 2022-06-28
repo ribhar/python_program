@@ -1,4 +1,5 @@
 # append() to add an item to a list
+
 # extend() to add all elements of a list to another list
 # insert() to insert an item at a given  index
 
