@@ -63,5 +63,11 @@ print(odd3)
 # del odd3[1] / this will give and error
 
 # however we can delete tuple it self
+
 del odd3
-print(odd3)
+print(1)
+
+ntuple = (1,2,4,5,7,56)
+
+x = ntuple.count(56)
+print(x) # counts number of given elements are there in a tuple
