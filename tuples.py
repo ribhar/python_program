@@ -58,3 +58,10 @@ odd3 = (1,2,["a","2","a"])
 odd3[2][0] = "2"
 print(odd3)
 
+
+# deletion of element is not posible in tuple
+# del odd3[1] / this will give and error
+
+# however we can delete tuple it self
+del odd3
+print(odd3)
