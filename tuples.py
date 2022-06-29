@@ -41,3 +41,8 @@ print(type(t2))
 # parantheses is optional
 t3 = "hello",
 print(type(t3))
+
+odd = (1,2,3,4,5)
+
+print(odd + (1,2,4,5))
+print(odd*3)
