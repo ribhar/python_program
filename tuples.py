@@ -74,3 +74,14 @@ print(x)
 
 y = ntuple.index(4) # index of first match element in tuple
 print(y)
+
+
+# check element is there in tuple or not
+
+nt = ('ri','pa')
+print('ri'in nt)
+print('i'in nt)
+
+
+for x in ('ri','pa'):
+    print("hello "+ x )
