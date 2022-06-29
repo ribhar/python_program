@@ -69,5 +69,8 @@ print(1)
 
 ntuple = (1,2,4,5,7,56)
 
-x = ntuple.count(56)
-print(x) # counts number of given elements are there in a tuple
+x = ntuple.count(56) # counts number of given elements are there in a tuple
+print(x) 
+
+y = ntuple.index(4) # index of first match element in tuple
+print(y)
