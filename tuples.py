@@ -46,3 +46,15 @@ odd = (1,2,3,4,5)
 
 print(odd + (1,2,4,5))
 print(odd*3)
+
+# tuples are immutable
+
+odd1 = (1,2,3,4,4)
+# odd1[2] = 3 / it will give you error
+
+# however elements for tuple are mutalble
+
+odd3 = (1,2,["a","2","a"])
+odd3[2][0] = "2"
+print(odd3)
+
