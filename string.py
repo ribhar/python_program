@@ -33,3 +33,6 @@ str = "program"
 print(str[-1])
 
 print(str[-len(str)])
+
+
+# We can access a range of the characters in a string using the slicing operator.
