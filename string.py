@@ -75,3 +75,16 @@ print(str*3)
 
 
 # it's is important to note that we are not modifying strings. it's not possible. These operations create new strings.
+
+
+# Iterating through a String
+
+# Here's a program to count the number of 'l' in a string
+
+count = 0
+
+for letter in "Hello World":
+    if letter == 'l':
+        count+=1
+
+print(count, "letters found")
