@@ -28,3 +28,8 @@ print(str[5])
 # python allows negative indexing for its sequences.
 
 # the index of the lat character is -1, THE INDEX OF THE SECOND LAST CHARATER IS -2 and so on.
+
+str = "program"
+print(str[-1])
+
+print(str[-len(str)])
