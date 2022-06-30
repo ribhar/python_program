@@ -109,7 +109,11 @@ print(result)
 
 # Python String Methods
 str = "Hello"
+
+# formats the given string into a nicer output in Python
 print(str.format())
+
+#
 print(str.lower())
 print(str.upper())
 # print(str.join())
@@ -117,3 +121,4 @@ str = "He,llo"
 print(str.split(','))
 print(str.find("He"))
 print(str.replace("He",'ne'))
+print(str)
