@@ -159,3 +159,8 @@ print('He said, "what\'s there?"')
 print("He said, \"what's there?\"")
 
 
+# \\ - backslacsh
+# \n - line feed (moving one line forward)
+# \' - single qoute
+# \" - double qoute
+# \t - horizontal tab
