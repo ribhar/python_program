@@ -43,3 +43,11 @@ print(str[1:4]) # gives you set of 2nd to 4rth characters
 
 print(str[:4])
 print(str[0:])
+
+#Strings are immutable. it's not possible to change or delte characters of a string.
+# However, you can delete the string entirely using the del keyword.
+
+str = 'Python'
+del str
+
+print(str)
