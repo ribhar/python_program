@@ -135,13 +135,27 @@ print(str.find("He"))
 print(str.replace("He",'ne'))
 print(str)
 
-
+# Escaping Sequence
 # If we want to print a text like He said,"what's there?"  - we can neither use single qoutes not double qoutes
 # this will result syntaxError as the text itself contains both the single and double qoutes.
 
-# print( "He said, "what's there?"") this gives error
-# print( 'He said, "what's there?"')  this gives error
+print( "He said, "what's there?"") this gives error
+print( 'He said, "what's there?"')  this gives error
 
 # on way to get around this problem is to use triple qoutes.
 
 print('''He said, "what's there?"''')
+
+
+# Escaping Sequence (Part II)
+# An escape sequence starts with a backslash and is interpreted differently.
+# If we use single qoutes to represent a string , all the single qoutes inside the string must escaped.
+# Similar is the case with double Qoutes. Here is how it can be done to repersent the above text.
+
+#escaping single qoutes
+print('He said, "what\'s there?"')
+
+#escaping double qoutes
+print("He said, \"what's there?\"")
+
+
