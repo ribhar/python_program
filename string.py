@@ -36,3 +36,9 @@ print(str[-len(str)])
 
 
 # We can access a range of the characters in a string using the slicing operator.
+
+str = 'Python'
+print(str[1:4]) # gives you set of 2nd to 4rth characters
+
+
+
