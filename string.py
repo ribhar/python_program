@@ -7,3 +7,10 @@ print(str)
 str = "hello world"
 print(str)
 
+str = '''hello'''
+print(str)
+
+str ='''Hellow welcome
+to the python world'''
+
+print(str)
