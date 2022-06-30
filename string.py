@@ -51,3 +51,17 @@ str = 'Python'
 del str
 
 print(str)
+
+
+#Python String Operations
+#There are many operations that can be performed with a string which makes it one of the most used data types in Python.
+
+#Concatenation of Two Strings
+
+#You can use the + operator to concatenate two strings.
+
+first = 'Ri'
+last = 'Bhar'
+
+full = first+last
+print(full)
