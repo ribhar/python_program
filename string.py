@@ -22,3 +22,9 @@ str = "python"
 print(str[0])
 
 print(str[5])
+
+# note indexing start from 0 
+
+# python allows negative indexing for its sequences.
+
+# the index of the lat character is -1, THE INDEX OF THE SECOND LAST CHARATER IS -2 and so on.
