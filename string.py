@@ -113,12 +113,24 @@ str = "Hello"
 # formats the given string into a nicer output in Python
 print(str.format())
 
-#
+# returns a string with all uppercase charaters converted to lowercase charaters
 print(str.lower())
+
+# # returns a string with all lowercase charaters converted to uppercase charaters
 print(str.upper())
+
+# returns a string concatenated with the elements of an iterable
 # print(str.join())
+
+
 str = "He,llo"
+
+# breaks the string at the sperator and returns a list of strings.
 print(str.split(','))
+
+# return the index of the first occurance of the substring (if found)
 print(str.find("He"))
+
+# returns a copy f the string where all occurances of a substring are replaced with another substring.
 print(str.replace("He",'ne'))
 print(str)
