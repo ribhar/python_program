@@ -88,3 +88,20 @@ for letter in "Hello World":
         count+=1
 
 print(count, "letters found")
+
+
+# check whether Substring Exits
+
+# we can test if a substring exits within a string or not, using the in keyword.
+
+result = 'a' in "hello"
+print(result)
+
+result = 'ab' in "hello"
+print(result)
+
+result = 'abc' in "hello"
+print(result)
+
+result = 'ell' in "hello"
+print(result)
