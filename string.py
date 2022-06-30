@@ -42,4 +42,4 @@ print(str[1:4]) # gives you set of 2nd to 4rth characters
 
 
 print(str[:4])
-print(str[:])
+print(str[0:])
