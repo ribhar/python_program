@@ -19,6 +19,6 @@ print(str)
 # similar to list and tuple, we can access characters in a string by using the index operatior []. here's howL:
 
 str = "python"
-print(str[0]);
+print(str[0])
 
-print()
+print(str[5])
