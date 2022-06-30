@@ -134,3 +134,14 @@ print(str.find("He"))
 # returns a copy f the string where all occurances of a substring are replaced with another substring.
 print(str.replace("He",'ne'))
 print(str)
+
+
+# If we want to print a text like He said,"what's there?"  - we can neither use single qoutes not double qoutes
+# this will result syntaxError as the text itself contains both the single and double qoutes.
+
+# print( "He said, "what's there?"") this gives error
+# print( 'He said, "what's there?"')  this gives error
+
+# on way to get around this problem is to use triple qoutes.
+
+print('''He said, "what's there?"''')
