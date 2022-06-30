@@ -65,3 +65,13 @@ last = 'Bhar'
 
 full = first+last
 print(full)
+
+
+# Repeat Two Strings
+# You can repeat a string using * operator.
+
+str = full
+print(str*3)
+
+
+# it's is important to note that we are not modifying strings. it's not possible. These operations create new strings.
