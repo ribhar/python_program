@@ -105,3 +105,15 @@ print(result)
 
 result = 'ell' in "hello"
 print(result)
+
+
+# Python String Methods
+str = "Hello"
+print(str.format())
+print(str.lower())
+print(str.upper())
+# print(str.join())
+str = "He,llo"
+print(str.split(','))
+print(str.find("He"))
+print(str.replace("He",'ne'))
