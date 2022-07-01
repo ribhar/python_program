@@ -35,3 +35,6 @@ print(myset)
 myset = set()
 print(myset)
 
+# Add and Update Sets
+# sets are mutable. But since they are unordered, indexing has no meaning.
+# we cannot access or change elements of a sets using indexing or slicing. Set doesn't support it/
