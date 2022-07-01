@@ -21,3 +21,17 @@ print(myset)
 
 # as you can  see, myset doesn't have any duplicate elements.
 # now let's create a set using the set() function.
+
+myset = set([2,3,3,3,4,5])
+print(myset)
+
+# here we have passed a list to the set() function to create a set.
+
+# Creating empty set
+# empty curly braces {} will make an empty dictionary in Python. To create a set without any elements we
+# use the set() function without any argument.
+
+#Empty set
+myset = set()
+print(myset)
+
