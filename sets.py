@@ -14,4 +14,10 @@ myset = {1,2.3,"hello",(1,2,4)}
 print(myset)
 
 
-# 
+# Creating Sets (part II)
+# let's try to create a set with duplicate elements
+myset = {1,2,1,2,12,3,4,3}
+print(myset)
+
+# as you can  see, myset doesn't have any duplicate elements.
+# now let's create a set using the set() function.
