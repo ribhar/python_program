@@ -8,3 +8,10 @@
 # sets of integers
 myset = {1,3,5}
 print(myset)
+
+# set of mixed datatypes
+myset = {1,2.3,"hello",(1,2,4)}
+print(myset)
+
+
+# 
